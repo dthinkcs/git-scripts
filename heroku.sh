@@ -9,7 +9,7 @@ Initialize a git repository in a new or existing directory
 
 $ cd my-project/
 $ git init
-$ heroku git:remote -a amazonjobs
+$ heroku git:remote -a <thebestlife>
 Deploy your application
 Commit your code to the repository and deploy it to Heroku using Git.
 
@@ -19,4 +19,4 @@ $ git push heroku master
 Existing Git repository
 For existing repositories, simply add the heroku remote
 
-$ heroku git:remote -a amazonjobs
+$ heroku git:remote -a <thebestlife>
